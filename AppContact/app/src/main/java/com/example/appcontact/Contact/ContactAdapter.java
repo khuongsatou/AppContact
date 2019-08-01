@@ -53,6 +53,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactH
         holder.tvNameContact.setText(contactList.get(position).getName());
         holder.tvNumberContact.setText(contactList.get(position).getNumber());
 
+        //Tai sao lai can bat su kien cho 2 view ntnay
         holder.tvNameContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
